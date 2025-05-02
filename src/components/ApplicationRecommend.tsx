@@ -3,29 +3,29 @@ import Image from "next/image";
 
 const APPLICATIONS = [
   {
-    name: "自动化产线",
-    img: "/assets/applications/automation.png",
+    name: "纺织领域",
+    img: "/assets/applications/fangzhi.jpg",
     desc: "高精度检测与定位，提升生产效率与自动化水平。",
     products: ["电感式接近开关", "光电传感器"],
     href: "/application/automation",
   },
   {
-    name: "智能装备",
-    img: "/assets/applications/intelligent.png",
+    name: "化工净水领域",
+    img: "/assets/applications/huagongjingshui.jpg",
     desc: "适用于机器人、智能装配等高端装备的精密感知。",
     products: ["光纤传感器", "放大器"],
     href: "/application/intelligent",
   },
   {
-    name: "包装机械",
-    img: "/assets/applications/packaging.png",
+    name: "交通领域",
+    img: "/assets/applications/jiaotong.jpg",
     desc: "高速检测、精准计数，保障包装流程顺畅。",
     products: ["光电传感器", "插件式传感器"],
     href: "/application/packaging",
   },
   {
-    name: "电子制造",
-    img: "/assets/applications/electronics.png",
+    name: "流水线设备",
+    img: "/assets/applications/liushuixian.jpg",
     desc: "微小元件检测，适配复杂电子制造工艺。",
     products: ["方形传感器", "光纤传感器"],
     href: "/application/electronics",
