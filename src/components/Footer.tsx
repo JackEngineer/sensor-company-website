@@ -70,13 +70,13 @@ export default function Footer() {
           <div className="flex gap-2 mt-1 text-[11px] md:text-xs text-gray-400">
             <span>友情链接：</span>
             <a
-              href="https://www.baidu.com"
+              href="http://www.jmcgq.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"
               tabIndex={0}
             >
-              百度
+              深圳机眸传感器科技有限公司
             </a>
             {/* 可继续添加更多友情链接 */}
           </div>

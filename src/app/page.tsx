@@ -11,8 +11,10 @@ export default function Home() {
       <Navbar />
       <main className="flex-1 flex flex-col gap-8 md:gap-12">
         <BannerCarousel />
-        <section className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+        <section className="container mx-auto px-4 my-8">
           <CompanyIntro />
+        </section>
+        <section className="container mx-auto px-4 my-8">
           <ProductCategoryQuickEntry />
         </section>
         <ApplicationRecommend />
