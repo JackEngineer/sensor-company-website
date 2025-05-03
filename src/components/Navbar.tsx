@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const NAV_ITEMS = [
   { label: "首页", href: "/" },
@@ -15,6 +16,11 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleToggleMenu = () => setMenuOpen((v) => !v);
   const handleCloseMenu = () => setMenuOpen(false);
+  const pathname = usePathname();
+
+  // 判断选中：完全等于或以 href+/ 开头（如 /products/xxx 也高亮产品中心）
+  const isActive = (href: string) =>
+    pathname === href || (href !== "/" && pathname.startsWith(href + "/"));
 
   return (
     <header className="sticky top-0 z-30 bg-white/90 backdrop-blur border-b border-gray-100 shadow-sm">
@@ -42,18 +48,26 @@ export default function Navbar() {
         </Link>
         {/* PC菜单 */}
         <ul className="hidden md:flex gap-6 lg:gap-8 items-center text-base font-medium">
-          {NAV_ITEMS.map((item) => (
-            <li key={item.href}>
-              <Link
-                href={item.href}
-                className="px-2 py-1 rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0052D9] hover:text-[#0052D9] transition-colors"
-                tabIndex={0}
-                aria-label={item.label}
-              >
-                {item.label}
-              </Link>
-            </li>
-          ))}
+          {NAV_ITEMS.map((item) => {
+            const active = isActive(item.href);
+            return (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  className={`px-2 py-1 rounded focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0052D9] hover:text-[#0052D9] transition-colors ${
+                    active
+                      ? "text-[#0052D9] font-bold underline underline-offset-4"
+                      : ""
+                  }`}
+                  tabIndex={0}
+                  aria-label={item.label}
+                  aria-current={active ? "page" : undefined}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
         {/* 语言切换 */}
         <div className="flex items-center gap-2">
@@ -145,19 +159,27 @@ export default function Navbar() {
             </span>
           </Link>
           <ul className="flex flex-col gap-4">
-            {NAV_ITEMS.map((item) => (
-              <li key={item.href}>
-                <Link
-                  href={item.href}
-                  className="block px-2 py-2 rounded hover:bg-[#F5F7FA] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0052D9] text-base font-medium"
-                  tabIndex={0}
-                  aria-label={item.label}
-                  onClick={handleCloseMenu}
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
+            {NAV_ITEMS.map((item) => {
+              const active = isActive(item.href);
+              return (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className={`block px-2 py-2 rounded hover:bg-[#F5F7FA] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0052D9] text-base font-medium ${
+                      active
+                        ? "text-[#0052D9] font-bold underline underline-offset-4"
+                        : ""
+                    }`}
+                    tabIndex={0}
+                    aria-label={item.label}
+                    aria-current={active ? "page" : undefined}
+                    onClick={handleCloseMenu}
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
           <div className="flex items-center gap-2 mt-6">
             <button
