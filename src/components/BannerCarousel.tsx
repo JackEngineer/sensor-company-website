@@ -27,11 +27,13 @@ export default function BannerCarousel() {
 
   // 自动轮播
   useEffect(() => {
-    timerRef.current && clearTimeout(timerRef.current);
+    if (timerRef.current) clearTimeout(timerRef.current);
     timerRef.current = setTimeout(() => {
       setIndex((i) => (i + 1) % bannerCount);
     }, 5000);
-    return () => timerRef.current && clearTimeout(timerRef.current);
+    return () => {
+      if (timerRef.current) clearTimeout(timerRef.current);
+    };
   }, [index, bannerCount]);
 
   // 键盘左右切换

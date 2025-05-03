@@ -2,10 +2,9 @@ import { NextResponse } from "next/server";
 import fs from "fs/promises";
 import path from "path";
 
-export async function GET(
-  req: Request,
-  { params }: { params: { model: string } }
-) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export async function GET(req: Request, context: any) {
+  const { params } = context;
   const dir = path.join(process.cwd(), "data/products");
   const files = await fs.readdir(dir);
   for (const file of files) {

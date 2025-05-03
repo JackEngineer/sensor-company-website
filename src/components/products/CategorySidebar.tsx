@@ -9,6 +9,8 @@ export interface Category {
 // 移除 selectedCategory props，URL 决定选中状态
 interface CategorySidebarProps {
   categories: Category[];
+  selectedCategory: { category: string; subcategory?: string } | null;
+  onSelect: (cat: { category: string; subcategory?: string } | null) => void;
 }
 
 // 辅助函数：查找当前选中项的路径
@@ -37,7 +39,7 @@ function getCategoryPath(
   return [];
 }
 
-const CategorySidebar: React.FC<CategorySidebarProps> = ({ categories }) => {
+const CategorySidebar: React.FC<CategorySidebarProps> = ({ categories, selectedCategory, onSelect }) => {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();

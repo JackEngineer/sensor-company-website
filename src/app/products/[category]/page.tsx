@@ -77,7 +77,11 @@ const ProductsByCategoryPage: React.FC = () => {
   return (
     <main className="flex flex-col md:flex-row gap-4 px-4 py-6 bg-[#F5F7FA] min-h-screen">
       <aside className="md:w-1/5 w-full">
-        <CategorySidebar categories={categories} />
+        <CategorySidebar
+          categories={categories}
+          selectedCategory={category ? { category, subcategory } : null}
+          onSelect={() => {}}
+        />
       </aside>
       <section className="flex-1 flex flex-col gap-4">
         <h1 className="text-2xl font-bold text-[#0052D9] mb-2">

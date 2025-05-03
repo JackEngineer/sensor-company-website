@@ -3,7 +3,6 @@ import BannerCarousel from "../components/BannerCarousel";
 import CompanyIntro from "../components/CompanyIntro";
 import ProductCategoryQuickEntry from "../components/ProductCategoryQuickEntry";
 import ApplicationRecommend from "../components/ApplicationRecommend";
-import Footer from "../components/Footer";
 
 export default function Home() {
   return (

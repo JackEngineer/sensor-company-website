@@ -5,22 +5,11 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Application } from "@/app/application/application.types";
 
-interface ApplicationDetailPageProps {
-  params: { scene: string };
-}
-
-const getApplications = (): Application[] => {
-  const filePath = path.join(
-    process.cwd(),
-    "data/applications/applications.json"
-  );
-  const data = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(data);
-};
-
 export default function ApplicationDetailPage({
   params,
-}: ApplicationDetailPageProps) {
+}: {
+  params: { scene: string };
+}) {
   const applications = getApplications();
   const app = applications.find(
     (a) => a.scene === decodeURIComponent(params.scene)
@@ -88,3 +77,12 @@ export default function ApplicationDetailPage({
     </main>
   );
 }
+
+const getApplications = (): Application[] => {
+  const filePath = path.join(
+    process.cwd(),
+    "data/applications/applications.json"
+  );
+  const data = fs.readFileSync(filePath, "utf-8");
+  return JSON.parse(data);
+};
