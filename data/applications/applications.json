@@ -1,0 +1,112 @@
+[
+  {
+    "scene": "通讯领域",
+    "desc": "用于通讯领域的信号检测与定位。",
+    "image": "/assets/applications/tx.jpg",
+    "products": ["M12", "M18", "E3F"],
+    "details": "通讯行业对信号检测与定位有高要求，传感器可实现精准检测与定位，提升通讯效率。",
+    "downloads": [
+      {
+        "name": "应用案例.pdf",
+        "url": "/assets/applications/assembly-line-case.pdf"
+      }
+    ],
+    "i18n": {
+      "en": {
+        "scene": "Automated Assembly Line",
+        "desc": "Object detection and positioning for automated assembly lines.",
+        "details": "Automated assembly lines are widely used in manufacturing, utilizing sensors for efficient object detection, positioning, and sorting to improve productivity and quality."
+      }
+    }
+  },
+  {
+    "scene": "冶金领域",
+    "desc": "用于冶金行业的金属检测与定位。",
+    "image": "/assets/applications/yj.jpg",
+    "products": ["E3F", "M18"],
+    "details": "冶金行业对金属检测与定位有高要求，传感器可实现精准检测与定位，提升生产效率。",
+    "downloads": [],
+    "i18n": {
+      "en": {
+        "scene": "Logistics Sorting System",
+        "desc": "Enhance automation in logistics sorting for accurate parcel identification and tracking.",
+        "details": "Logistics sorting systems use sensors for automatic parcel identification, sorting, and tracking, greatly improving efficiency and reducing labor costs."
+      }
+    }
+  },
+  {
+    "scene": "纺织领域",
+    "desc": "高精度检测与定位，提升生产效率与自动化水平。",
+    "image": "/assets/applications/fangzhi.jpg",
+    "products": ["电感式接近开关", "光电传感器"],
+    "details": "纺织行业对检测精度和自动化要求极高，传感器可用于纱线断裂检测、布料定位等多种场景，提升生产效率。",
+    "downloads": [],
+    "i18n": {
+      "en": {
+        "scene": "Textile Industry",
+        "desc": "High-precision detection and positioning to improve production efficiency and automation.",
+        "details": "Sensors are widely used in the textile industry for yarn break detection, fabric positioning, and more, enhancing efficiency."
+      }
+    }
+  },
+  {
+    "scene": "化工净水领域",
+    "desc": "适用于机器人、智能装配等高端装备的精密感知。",
+    "image": "/assets/applications/huagongjingshui.jpg",
+    "products": ["光纤传感器", "放大器"],
+    "details": "化工净水行业需对液位、流量等进行精准监测，传感器可实现自动化控制与安全保障。",
+    "downloads": [],
+    "i18n": {
+      "en": {
+        "scene": "Chemical Water Purification",
+        "desc": "Precision sensing for robotics and intelligent assembly.",
+        "details": "Sensors enable precise monitoring of liquid levels and flow in chemical water purification, ensuring automation and safety."
+      }
+    }
+  },
+  {
+    "scene": "交通领域",
+    "desc": "高速检测、精准计数，保障包装流程顺畅。",
+    "image": "/assets/applications/jiaotong.jpg",
+    "products": ["光电传感器", "插件式传感器"],
+    "details": "交通行业对车辆检测、流量统计等有高要求，传感器可实现高速、精准的数据采集。",
+    "downloads": [],
+    "i18n": {
+      "en": {
+        "scene": "Transportation",
+        "desc": "High-speed detection and accurate counting for smooth processes.",
+        "details": "Sensors are used for vehicle detection and traffic flow statistics, providing fast and accurate data."
+      }
+    }
+  },
+  {
+    "scene": "流水线设备",
+    "desc": "微小元件检测，适配复杂电子制造工艺。",
+    "image": "/assets/applications/liushuixian.jpg",
+    "products": ["方形传感器", "光纤传感器"],
+    "details": "流水线设备需对微小元件进行高效检测，传感器可适应复杂工艺，提升自动化水平。",
+    "downloads": [],
+    "i18n": {
+      "en": {
+        "scene": "Assembly Line Equipment",
+        "desc": "Detection of tiny components for complex electronic manufacturing.",
+        "details": "Sensors efficiently detect tiny components on assembly lines, supporting complex manufacturing processes."
+      }
+    }
+  },
+  {
+    "scene": "印刷领域",
+    "desc": "印刷行业对印刷质量有高要求，传感器可实现印刷质量的精准检测与控制。",
+    "image": "/assets/applications/ys.jpg",
+    "products": ["色标传感器", "电容式接近开关"],
+    "details": "印刷行业对印刷质量有高要求，传感器可实现印刷质量的精准检测与控制。",
+    "downloads": [],
+    "i18n": {
+      "en": {
+        "scene": "Printing Industry",
+        "desc": "Precise detection and control of printing quality.",
+        "details": "Sensors ensure accurate printing quality and control in the printing industry."
+      }
+    }
+  }
+]
