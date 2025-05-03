@@ -1,0 +1,26 @@
+{
+  "model": "CM1",
+  "title": "色标传感器高灵敏度检测",
+  "category": "色标传感器",
+  "parameters": [
+    { "参数": "检测距离", "数值": 10, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "响应时间", "数值": "0.1", "单位": "ms" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/cm1.webp",
+      "desc": "CM1 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/cm1-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "印刷包装", "desc": "色标检测与定位" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/cm1-manual.pdf" }
+  ]
+}

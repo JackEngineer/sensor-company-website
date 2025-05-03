@@ -1,0 +1,27 @@
+{
+  "model": "PE2",
+  "title": "圆柱型光电开关高精度传感器",
+  "category": "光电传感器",
+  "subcategory": "圆柱型光电开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 500, "单位": "mm" },
+    { "参数": "输出方式", "数值": "PNP" },
+    { "参数": "响应时间", "数值": "0.5", "单位": "ms" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/pe2.webp",
+      "desc": "PE2 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/pe2-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "自动化装配", "desc": "高精度定位检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/pe2-manual.pdf" }
+  ]
+}

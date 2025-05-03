@@ -1,0 +1,27 @@
+{
+  "model": "IM4",
+  "title": "台湾嘉准F&C原装进口传感器FC-210系列",
+  "category": "原装进口传感器",
+  "subcategory": "台湾嘉准F&C",
+  "parameters": [
+    { "参数": "检测距离", "数值": 50, "单位": "mm" },
+    { "参数": "输出方式", "数值": "PNP" },
+    { "参数": "品牌", "数值": "F&C" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/im4.webp",
+      "desc": "IM4 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/im4-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "自动化装配", "desc": "高端设备配套" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/im4-manual.pdf" }
+  ]
+}

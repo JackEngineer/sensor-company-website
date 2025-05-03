@@ -1,0 +1,27 @@
+{
+  "model": "IM2",
+  "title": "基恩士原装进口传感器LR-TB5000系列",
+  "category": "原装进口传感器",
+  "subcategory": "基恩士传感器",
+  "parameters": [
+    { "参数": "检测距离", "数值": 500, "单位": "mm" },
+    { "参数": "输出方式", "数值": "PNP" },
+    { "参数": "品牌", "数值": "基恩士" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/im2.webp",
+      "desc": "IM2 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/im2-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "高端制造", "desc": "精密检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/im2-manual.pdf" }
+  ]
+}

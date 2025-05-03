@@ -1,0 +1,27 @@
+{
+  "model": "SP4",
+  "title": "防爆型电感式接近开关安全防护型",
+  "category": "特殊接近开关及配件",
+  "subcategory": "防爆型电感式接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 6, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "防爆等级", "数值": "Exd II CT6" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/sp4.webp",
+      "desc": "SP4 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/sp4-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "危险环境", "desc": "防爆区域金属检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/sp4-manual.pdf" }
+  ]
+}

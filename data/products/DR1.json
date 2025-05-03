@@ -1,0 +1,26 @@
+{
+  "model": "DR1",
+  "title": "导轨电源高效稳压模块",
+  "category": "导轨电源",
+  "parameters": [
+    { "参数": "输出电压", "数值": 24, "单位": "VDC" },
+    { "参数": "输出电流", "数值": 2, "单位": "A" },
+    { "参数": "效率", "数值": "90", "单位": "%" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/dr1.webp",
+      "desc": "DR1 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/dr1-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "工业自动化", "desc": "为传感器等设备供电" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/dr1-manual.pdf" }
+  ]
+}

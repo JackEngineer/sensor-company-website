@@ -1,0 +1,26 @@
+{
+  "model": "MS1",
+  "title": "磁性开关高灵敏度检测",
+  "category": "磁性开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 15, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "响应时间", "数值": "1", "单位": "ms" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/ms1.webp",
+      "desc": "MS1 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/ms1-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "气缸位置检测", "desc": "磁性动作检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/ms1-manual.pdf" }
+  ]
+}

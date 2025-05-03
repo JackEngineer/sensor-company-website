@@ -1,0 +1,27 @@
+{
+  "model": "SP3",
+  "title": "模拟量电感式接近开关输出可调型",
+  "category": "特殊接近开关及配件",
+  "subcategory": "模拟量电感式接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 10, "单位": "mm" },
+    { "参数": "输出方式", "数值": "模拟量" },
+    { "参数": "输出电压", "数值": "0-10", "单位": "V" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/sp3.webp",
+      "desc": "SP3 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/sp3-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "自动化检测", "desc": "距离连续输出" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/sp3-manual.pdf" }
+  ]
+}

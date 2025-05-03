@@ -1,0 +1,27 @@
+{
+  "model": "LR2",
+  "title": "小型激光对射开关高灵敏度传感器",
+  "category": "激光传感器",
+  "subcategory": "小型激光对射开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 500, "单位": "mm" },
+    { "参数": "输出方式", "数值": "PNP" },
+    { "参数": "激光波长", "数值": "650", "单位": "nm" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/lr2.webp",
+      "desc": "LR2 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/lr2-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "自动化流水线", "desc": "物体有无检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/lr2-manual.pdf" }
+  ]
+}

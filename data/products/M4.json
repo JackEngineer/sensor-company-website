@@ -1,0 +1,18 @@
+{
+  "model": "M4",
+  "title": "M4电感式接近开关超小型三线直流NPN常开感距1.5mm检测金属传感器",
+  "category": "电感式接近开关",
+  "subcategory": "超小型电感式接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 10, "单位": "cm" },
+    { "参数": "输出方式", "数值": "PNP" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/m4.webp",
+      "desc": "M4 实物图"
+    }
+  ],
+  "applications": [{ "scene": "包装流水线", "desc": "检测物体有无" }]
+}

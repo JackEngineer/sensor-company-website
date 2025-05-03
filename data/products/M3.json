@@ -1,0 +1,22 @@
+{
+  "model": "M3",
+  "title": "M3超小微型电感式接近开关传感器分离式感距0.6mm感应金属",
+  "category": "电感式接近开关",
+  "subcategory": "超小型电感式接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 8, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN/PNP" },
+    { "参数": "外壳材质", "数值": "ABS" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/m3.webp",
+      "desc": "M3 实物图"
+    }
+  ],
+  "applications": [{ "scene": "液位检测", "desc": "非接触式液体/粉体检测" }],
+  "downloads": [
+    { "name": "安装说明", "url": "/assets/products/cs1-manual.pdf" }
+  ]
+}

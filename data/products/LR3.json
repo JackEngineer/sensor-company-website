@@ -1,0 +1,27 @@
+{
+  "model": "LR3",
+  "title": "圆柱型激光开关高精度传感器",
+  "category": "激光传感器",
+  "subcategory": "圆柱型激光开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 1000, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "激光波长", "数值": "650", "单位": "nm" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/lr3.webp",
+      "desc": "LR3 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/lr3-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "包装检测", "desc": "长距离物体检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/lr3-manual.pdf" }
+  ]
+}

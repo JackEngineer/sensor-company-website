@@ -1,0 +1,27 @@
+{
+  "model": "LR4",
+  "title": "方形激光开关高精度传感器",
+  "category": "激光传感器",
+  "subcategory": "方形激光开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 500, "单位": "mm" },
+    { "参数": "输出方式", "数值": "PNP" },
+    { "参数": "激光波长", "数值": "650", "单位": "nm" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/lr4.webp",
+      "desc": "LR4 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/lr4-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "自动化装配", "desc": "高精度定位检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/lr4-manual.pdf" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "model": "M18",
+  "title": "M18中长距离电感式接近开关NPN三线常开",
+  "category": "电感式接近开关",
+  "subcategory": "中长距离接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 8, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "外壳材质", "数值": "黄铜镀镍" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/m18.webp",
+      "desc": "M18 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/m18-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "自动化装配线", "desc": "用于检测金属部件位置" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/m18-manual.pdf" }
+  ]
+}

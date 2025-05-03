@@ -1,0 +1,27 @@
+{
+  "model": "PE1",
+  "title": "小型光电漫反射开关高灵敏度传感器",
+  "category": "光电传感器",
+  "subcategory": "小型光电漫反射开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 200, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "响应时间", "数值": "1", "单位": "ms" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/pe1.webp",
+      "desc": "PE1 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/pe1-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "包装流水线", "desc": "物体有无检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/pe1-manual.pdf" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "model": "M8",
+  "title": "M8超短型电感式接近开关传感器NPN三线常开",
+  "category": "电感式接近开关",
+  "subcategory": "超短型电感式接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 2, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "外壳材质", "数值": "不锈钢" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/m8.webp",
+      "desc": "M8 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/m8-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "自动化装配线", "desc": "用于检测金属部件位置" }],
+  "downloads": [{ "name": "产品手册", "url": "/assets/products/m8-manual.pdf" }]
+}

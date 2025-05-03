@@ -25,6 +25,7 @@ alwaysApply: true
 - JavaScript
 - TypeScript
 - TailwindCSS
+- shadcn/ui
 - HTML
 - CSS
 

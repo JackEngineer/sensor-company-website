@@ -1,0 +1,27 @@
+{
+  "model": "FB2",
+  "title": "带针管光纤系列高精度传感器",
+  "category": "光纤/放大器/聚焦镜",
+  "subcategory": "带针管光纤系列",
+  "parameters": [
+    { "参数": "检测距离", "数值": 800, "单位": "mm" },
+    { "参数": "输出方式", "数值": "PNP" },
+    { "参数": "光纤类型", "数值": "带针管" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/fb2.webp",
+      "desc": "FB2 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/fb2-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "精密检测", "desc": "微小物体检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/fb2-manual.pdf" }
+  ]
+}

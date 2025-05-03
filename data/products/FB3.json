@@ -1,0 +1,27 @@
+{
+  "model": "FB3",
+  "title": "90°弯头直角光纤系列高灵敏度传感器",
+  "category": "光纤/放大器/聚焦镜",
+  "subcategory": "90°弯头直角光纤系列",
+  "parameters": [
+    { "参数": "检测距离", "数值": 600, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "光纤类型", "数值": "90°弯头" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/fb3.webp",
+      "desc": "FB3 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/fb3-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "自动化装配", "desc": "空间受限场合检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/fb3-manual.pdf" }
+  ]
+}

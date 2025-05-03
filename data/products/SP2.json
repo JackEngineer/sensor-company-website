@@ -1,0 +1,27 @@
+{
+  "model": "SP2",
+  "title": "全金属感应面接近开关高强度耐用型",
+  "category": "特殊接近开关及配件",
+  "subcategory": "全金属感应面接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 8, "单位": "mm" },
+    { "参数": "输出方式", "数值": "PNP" },
+    { "参数": "外壳材质", "数值": "不锈钢" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/sp2.webp",
+      "desc": "SP2 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/sp2-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "重载机械", "desc": "适用于高强度冲击环境" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/sp2-manual.pdf" }
+  ]
+}

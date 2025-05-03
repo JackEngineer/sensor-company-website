@@ -1,0 +1,27 @@
+{
+  "model": "SP1",
+  "title": "高温电感式接近开关高温环境专用",
+  "category": "特殊接近开关及配件",
+  "subcategory": "高温电感式接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 5, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "耐温范围", "数值": "-25~180", "单位": "℃" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/sp1.webp",
+      "desc": "SP1 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/sp1-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "高温工况", "desc": "适用于高温环境下金属检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/sp1-manual.pdf" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "model": "LR1",
+  "title": "小型激光漫反射开关高精度传感器",
+  "category": "激光传感器",
+  "subcategory": "小型激光漫反射开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 30, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "激光波长", "数值": "650", "单位": "nm" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/lr1.webp",
+      "desc": "LR1 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/lr1-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "电子装配线", "desc": "高精度定位检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/lr1-manual.pdf" }
+  ]
+}

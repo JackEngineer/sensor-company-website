@@ -1,0 +1,27 @@
+{
+  "model": "M5",
+  "title": "M5小型接近开关传感器24V三线直流NPN常开E2E-X1C1超短型感应开关",
+  "category": "电感式接近开关",
+  "subcategory": "超小型电感式接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 4, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "工作电压", "数值": "10-30", "单位": "VDC" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/m5.webp",
+      "desc": "M5 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/m5.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "自动化装配线", "desc": "用于检测金属部件位置" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/m12-manual.pdf" }
+  ]
+}

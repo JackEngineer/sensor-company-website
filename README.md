@@ -20,6 +20,7 @@
 - **前端框架**：Next.js（App Router 模式，支持 SSR/SSG）
 - **开发语言**：TypeScript
 - **样式方案**：Tailwind CSS
+- **UI组件库**：shadcn/ui
 - **响应式设计**：兼容 PC 与移动端
 - **内容管理**：产品数据可采用 JSON/MDX/Markdown 结构化管理
 - **静态资源**：产品图片、结构图等统一归档

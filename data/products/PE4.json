@@ -1,0 +1,29 @@
+{
+  "model": "PE4",
+  "title": "背景抑制型高品质光电传感器",
+  "category": "光电传感器",
+  "subcategory": "背景抑制型高品质光电",
+  "parameters": [
+    { "参数": "检测距离", "数值": 100, "单位": "mm" },
+    { "参数": "输出方式", "数值": "PNP" },
+    { "参数": "响应时间", "数值": "0.2", "单位": "ms" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/pe4.webp",
+      "desc": "PE4 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/pe4-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [
+    { "scene": "高反光物体检测", "desc": "背景抑制，抗干扰能力强" }
+  ],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/pe4-manual.pdf" }
+  ]
+}

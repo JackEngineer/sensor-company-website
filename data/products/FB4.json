@@ -1,0 +1,27 @@
+{
+  "model": "FB4",
+  "title": "光纤放大器高灵敏度传感器",
+  "category": "光纤/放大器/聚焦镜",
+  "subcategory": "光纤放大器",
+  "parameters": [
+    { "参数": "检测距离", "数值": 1200, "单位": "mm" },
+    { "参数": "输出方式", "数值": "PNP" },
+    { "参数": "放大器类型", "数值": "数字式" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/fb4.webp",
+      "desc": "FB4 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/fb4-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "高速检测", "desc": "适用于高速流水线" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/fb4-manual.pdf" }
+  ]
+}

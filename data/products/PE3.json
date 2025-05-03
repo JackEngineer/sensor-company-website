@@ -1,0 +1,27 @@
+{
+  "model": "PE3",
+  "title": "方形光电开关高灵敏度传感器",
+  "category": "光电传感器",
+  "subcategory": "方形光电开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 300, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "响应时间", "数值": "1", "单位": "ms" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/pe3.webp",
+      "desc": "PE3 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/pe3-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "流水线检测", "desc": "物体有无检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/pe3-manual.pdf" }
+  ]
+}

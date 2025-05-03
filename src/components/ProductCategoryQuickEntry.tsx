@@ -37,7 +37,7 @@ const CATEGORIES = [
         />
       </svg>
     ),
-    href: "/products/inductive",
+    href: "/products/电感式接近开关",
     subcategories: [
       "超小型",
       "标准型",

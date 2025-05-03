@@ -1,0 +1,27 @@
+{
+  "model": "PE5",
+  "title": "槽型光电开关高灵敏度传感器",
+  "category": "光电传感器",
+  "subcategory": "槽型光电开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 20, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "响应时间", "数值": "0.5", "单位": "ms" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/pe5.webp",
+      "desc": "PE5 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/pe5-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "标签检测", "desc": "用于标签/卡片检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/pe5-manual.pdf" }
+  ]
+}

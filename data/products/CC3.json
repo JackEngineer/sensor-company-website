@@ -1,0 +1,20 @@
+{
+    "model": "CC3",
+    "title": "标准圆柱电容式接近开关NPN常开",
+    "category": "电容式接近开关",
+    "subcategory": "标准圆柱电容式接近开关",
+    "parameters": [
+      { "参数": "检测距离", "数值": 12, "单位": "mm" },
+      { "参数": "输出方式", "数值": "NPN" },
+      { "参数": "外壳材质", "数值": "黄铜镀镍" }
+    ],
+    "images": [
+      { "type": "product", "url": "/assets/products/cc3.webp", "desc": "CC3 实物图" },
+      { "type": "structure", "url": "/assets/products/cc3-struct.webp", "desc": "结构图" }
+    ],
+    "applications": [{ "scene": "粮食仓储", "desc": "粮食/粉体料位检测" }],
+    "downloads": [
+      { "name": "产品手册", "url": "/assets/products/cc3-manual.pdf" }
+    ]
+  }
+  

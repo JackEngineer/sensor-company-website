@@ -1,0 +1,27 @@
+{
+  "model": "CC4",
+  "title": "AC两线电容接近开关NPN常开",
+  "category": "电容式接近开关",
+  "subcategory": "AC两线电容接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 10, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "工作电压", "数值": "90-250", "单位": "VAC" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/cc4.webp",
+      "desc": "CC4 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/cc4-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "自动化设备", "desc": "高压环境下非接触检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/cc4-manual.pdf" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "model": "FB6",
+  "title": "矩阵光纤型高灵敏度传感器",
+  "category": "光纤/放大器/聚焦镜",
+  "subcategory": "矩阵光纤型",
+  "parameters": [
+    { "参数": "检测距离", "数值": 2000, "单位": "mm" },
+    { "参数": "输出方式", "数值": "PNP" },
+    { "参数": "光纤类型", "数值": "矩阵型" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/fb6.webp",
+      "desc": "FB6 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/fb6-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "大面积检测", "desc": "适用于大范围物体检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/fb6-manual.pdf" }
+  ]
+}

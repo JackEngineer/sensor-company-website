@@ -1,0 +1,27 @@
+{
+  "model": "IM3",
+  "title": "松下原装进口传感器EX-14系列",
+  "category": "原装进口传感器",
+  "subcategory": "松下传感器",
+  "parameters": [
+    { "参数": "检测距离", "数值": 20, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "品牌", "数值": "松下" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/im3.webp",
+      "desc": "IM3 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/im3-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "自动化装配", "desc": "高端设备配套" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/im3-manual.pdf" }
+  ]
+}

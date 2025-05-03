@@ -1,0 +1,27 @@
+{
+  "model": "CC1",
+  "title": "方形电容式接近开关NPN常开",
+  "category": "电容式接近开关",
+  "subcategory": "方形电容式接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 10, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "外壳材质", "数值": "ABS" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/cc1.webp",
+      "desc": "CC1 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/cc1-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "液位检测", "desc": "非接触式液体/粉体检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/cc1-manual.pdf" }
+  ]
+}

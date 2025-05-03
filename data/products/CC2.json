@@ -1,0 +1,27 @@
+{
+  "model": "CC2",
+  "title": "电容式耐腐蚀接近开关NPN常开",
+  "category": "电容式接近开关",
+  "subcategory": "电容式耐腐蚀接近开关",
+  "parameters": [
+    { "参数": "检测距离", "数值": 8, "单位": "mm" },
+    { "参数": "输出方式", "数值": "NPN" },
+    { "参数": "外壳材质", "数值": "PBT" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/cc2.webp",
+      "desc": "CC2 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/cc2-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "化工液位检测", "desc": "耐腐蚀环境下液体检测" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/cc2-manual.pdf" }
+  ]
+}

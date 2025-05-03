@@ -1,0 +1,27 @@
+{
+  "model": "SP6",
+  "title": "连接线高品质配件",
+  "category": "特殊接近开关及配件",
+  "subcategory": "连接线",
+  "parameters": [
+    { "参数": "长度", "数值": 2, "单位": "m" },
+    { "参数": "接口类型", "数值": "M12" },
+    { "参数": "线芯数", "数值": 3, "单位": "芯" }
+  ],
+  "images": [
+    {
+      "type": "product",
+      "url": "/assets/products/sp6.webp",
+      "desc": "SP6 实物图"
+    },
+    {
+      "type": "structure",
+      "url": "/assets/products/sp6-struct.webp",
+      "desc": "结构图"
+    }
+  ],
+  "applications": [{ "scene": "传感器配套", "desc": "适用于多种型号传感器" }],
+  "downloads": [
+    { "name": "产品手册", "url": "/assets/products/sp6-manual.pdf" }
+  ]
+}
